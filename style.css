@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background-image: url(https://hbimg.huabanimg.com/26b23e05136697edaa35dcb717b80995a926b2034220-u3lGH5_fw658);
+    background-image: url("home_background.png");
 }
 .nav{
     display: flex;
