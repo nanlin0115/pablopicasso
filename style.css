@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(https://hbimg.huabanimg.com/26b23e05136697edaa35dcb717b80995a926b2034220-u3lGH5_fw658);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #ccc;
+    height: 50px;
+    font-size: 1.5vw;
+    padding-top: 5px;
+    background-color: rgba(204, 204, 204, 0.212);
+    color: black;
+}
+.nav a:hover{
+    color: black;
+}
+.mainbody{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: xx-large;
+    border: 2px solid #cccc;
+    height: 600px;
+    justify-content: space-around;
+    font-family: 'Viaoda Libre', cursive;
+    color: rgb(22, 15, 54);
+}
+img {
+    float: left;
+  }
+
+
+.backg{
+    margin-top: 10%;
+}
+.home{
+    color: gray;
+    font-family: 'Indie Flower', cursive;
+}
+.biography{
+    color: gray;
+    font-family: 'Indie Flower', cursive;
+}
+.painting_styles{
+    color: gray;
+    font-family: 'Indie Flower', cursive;
+}
