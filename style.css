@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    background-image: url("home_background.PNG");
+    background-image: url("homebg.PNG");
 }
 .nav{
     display: flex;
