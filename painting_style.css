@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  /*  background-image: url("colorgeo.PNG");
+    height: 200px;*/
+
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(235, 139, 13);
+    height: 50px;
+    font-size: 1.5vw;
+    padding-top: 5px;
+    background-color: rgba(211, 163, 100, 0.233);
+    color: black;
+}
+.nav a:hover{
+    color: black;
+}
+
+.home{
+    color: rgb(235, 139, 13);
+    font-family: 'Indie Flower', cursive;
+}
+.biography{
+    color: rgb(235, 139, 13);
+    font-family: 'Indie Flower', cursive;
+}
+.painting_styles{
+    color: rgb(235, 139, 13);
+    font-family: 'Indie Flower', cursive;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    color: rgb(92, 44, 5);
+}
+
+.row {
+    display: flex;
+  }
+
+
+  
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    width: 33.33%;
+    height: 33.33%;
+}
+
+.thumbnailContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+.blue {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: space-between;
+
+}
+
+.rose {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.primitivism {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+.analytic {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+.synthetic {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.neosur {
+    display: inline-flex;
+    width: 32%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+
+img{
+    width: 100%;
+    height: 700px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#blue{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#rose{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 12.5%;
+}
+
+#primitivism{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#analytic{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 5%;
+}
+#synthetic{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#neosur{
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bio.PNG");
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(122, 195, 238);
+    height: 50px;
+    font-size: 1.5vw;
+    padding-top: 5px;
+    background-color: rgba(160, 209, 238, 0.377);
+    color: black;
+}
+.nav a:hover{
+    color: black;
+}
+
+.home{
+    color: rgb(21, 136, 202);;
+    font-family: 'Indie Flower', cursive;
+}
+.biography{
+    color: rgb(21, 136, 202);
+    font-family: 'Indie Flower', cursive;
+}
+.painting_styles{
+    color: rgb(21, 136, 202);
+    font-family: 'Indie Flower', cursive;
+}
+h1{
+    font-size: 200px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.content{
+    padding-left: 3vm;
+    padding-right: 3vm;
+    font-size: xx-large;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.pablo{
+    width: 50%;
+    float: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.moodboard{
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.guernica{
+    width: 50%;
+    float: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#p1{
+    background-color: rgba(164, 193, 236, 0.322);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
+}
+#p2{
+
+    background-color: rgba(164, 193, 236, 0.322);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
+}
+#p3{
+    background-color: rgba(164, 193, 236, 0.322);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
